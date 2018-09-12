@@ -1,6 +1,7 @@
 p
 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 0px;
 }
 .orange {
     color: #FF6600;
@@ -17,3 +18,28 @@ p
  .blancasse {
     color: #F5F5F5;
 } 
+.form
+{
+    background-color: #ff6600;
+}
+.about
+{
+    background-color: #f5f5f5;
+}
+.why
+{
+    background-color: #989898;
+}
+section
+{
+    min-height: 582px;
+    padding-top: 100px;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #ff6600;
+}
+.table td, .table th {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: none;
+}
