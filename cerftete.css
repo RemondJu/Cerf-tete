@@ -14,6 +14,23 @@ p
  .noirmarron {
     color: #1B1512;
 }
- .blancasse {
-    color: #F5F5F5;
-} 
+section
+{
+    padding-top: 100px;
+    min-height: 584px;
+}
+.about{
+    background-color: #f5f5f5;
+}
+header{
+    margin-bottom: 150px;
+}
+.caracteristiques{
+    background-color: #f5f5f5;
+}
+.how{
+    background-color: #ffffff;
+}
+.form{
+    background-color: #ff6600!important;
+}
