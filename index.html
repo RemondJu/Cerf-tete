@@ -33,8 +33,8 @@
 
     <!--A propos-->
 
-    <section id="about">        
-        <div class="container"> 
+    <section id="about" class="about">        
+        <div class="container align-items-center"> 
             <div class="row">        
                 <div class="col-4">                    
                     <img src="https://image.noelshack.com/fichiers/2018/36/5/1536310742-copie-de-cerf-tete2.png" alt="cerf" class="img-fluid">  
@@ -50,7 +50,19 @@
         </div>
     </section>
 
+    <!--Pourquoi-->
 
+    <section id="why" class="why">
+        <div class="container">
+            <img src="http://image.noelshack.com/fichiers/2018/37/3/1536754855-cerf-tete2.jpeg" alt="Le Cerf-tête" width="50%">
+            <h1>Pourquoi le Wild Cerf-tête</h1>
+            <h3>Parce-que c'est bien ? Certes, mais encore...</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In maximus lobortis leo eu sagittis. Vivamus quis neque luctus, feugiat odio ut, vehicula massa. Quisque sodales fermentum elit, eu lobortis est ultricies in. Nam rhoncus mauris consequat molestie ultricies. Ut imperdiet consectetur sapien et gravida. Suspendisse eget iaculis elit. Pellentesque at sagittis felis. Nunc quis condimentum eros. Quisque vel elementum diam. Cras sed ullamcorper massa.
+
+            Aenean interdum eros ut metus interdum rutrum. Quisque ut consectetur tortor, sed imperdiet lacus. Integer auctor lectus non sodales gravida. In eleifend lacus in enim porttitor, lobortis lacinia urna lacinia. Duis porttitor semper dui. Donec nec pulvinar purus. Praesent sed risus turpis. Fusce a auctor justo. Nulla hendrerit in purus a efficitur. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse potenti. Sed pretium, nisi auctor tincidunt suscipit, mi dolor rhoncus sapien, eu posuere felis erat ac tellus.</p>
+        </div>
+    </section>
+    
     <!--Caracéristiques-->
 
 
@@ -58,7 +70,7 @@
         <h1 class="text-center orange">
             Les caractéristiques du produit
         </h1>
-        <div class="container">
+        <div class="container align-items-center">
             <div class="row align-items-center">
                 <div class="col-lg-4 col-md-6 col-xs-12 align-middle">
                     <p>
@@ -118,13 +130,13 @@
 
     <!--Comment ça marche ?--> 
 
-    <section id="how">
-        <div class="container">
+    <section id="how" class='how'>
+        <div class="container align-items-center">
             <div class="row">
-                <div class="col-6">
-                    <img src="https://image.noelshack.com/fichiers/2018/36/5/1536313374-cerf-tete.jpg" alt="Cert-tête profil" width="100%">
+                <div class="col-lg-6 col-xs-12">
+                    <img src="https://i.imgur.com/JaHS4DL.png " alt="Cert-tête profil" width="100%">
                 </div>
-                <div class="col-6 align-self-center">
+                <div class="col-lg-6 col-xs-12 align-self-center justify-content-center">
                     <h1>Comment ça marche ?</h1>
                     <h3>Bien ? certes, mais encore...</h3>
                 </div>                
@@ -139,125 +151,50 @@
 
     <!--Formulaire-->
     
-    <section id="form">
+    <section id="form" class="form">    
         <div class="container">
+            <div class="col-lg-4 col-md-6 col-xs-12 align-center"><h1>Contact</h1></div>
             <table class="table table-striped">
-                <tbody>
-                    <tr>
-                        <td colspan="1">
+               <tbody>
+                  <tr>
+                     <td colspan="1">
                         <form class="well form-horizontal">
-                            <fieldset>
-                                <div class="form-group">
-                                    <label class="col-md-4 control-label">Nom prénom</label>
-                                    <div class="col-md-8 inputGroupContainer">
-                                    <div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span><input id="fullName" name="fullName" placeholder="Nom prénom" class="form-control" required="true" value="" type="text"></div>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label class="col-md-4 control-label">Adresse</label>
-                                    <div class="col-md-8 inputGroupContainer">
-                                        <div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span><input id="Adresse" name="Adresse" placeholder="adresse" class="form-control" required="true" value="" type="text"></div>
-
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label class="col-md-4 control-label">Complétement d'adresse</label>
-                                    <div class="col-md-8 inputGroupContainer">
-                                        <div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span><input id="Complétement d'adresse" name="Complétement d'adresse" placeholder="Complétement d'adresse" class="form-control" required="true" value="" type="text"></div>
-
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label class="col-md-4 control-label">City</label>
-                                    <div class="col-md-8 inputGroupContainer">
-                                        <div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span><input id="city" name="city" placeholder="City" class="form-control" required="true" value="" type="text"></div>
-
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label class="col-md-4 control-label">Code postal</label>
-                                    <div class="col-md-8 inputGroupContainer">
-                                        <div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span><input id="Code postal" name="Code postal" placeholder="Code postal" class="form-control" required="true" value="" type="text"></div>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label class="col-md-4 control-label">Pays</label>
-                                    <div class="col-md-8 inputGroupContainer">
-                                        <div class="input-group">
-                                            <span class="input-group-addon" style="max-width: 100%;"><i class="glyphicon glyphicon-list"></i></span>
-                                            <select class="selectpicker form-control">
-                                                <option> France </option>
-                                                <option> Angleterre</option>
-                                                <option>Japon</option>
-                                                <option>Espagne</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label class="col-md-4 control-label">Email</label>
-                                    <div class="col-md-8 inputGroupContainer">
+                           <fieldset>
+                              <div class="form-group">
+                                 <label class="col-md-4 control-label">Nom</label>
+                                 <div class="col-md-12 inputGroupContainer">
+                                    <div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span><input id="lastName" name="lastName" placeholder="Nom" class="form-control" required="true" value="" type="text"></div>
+                                 </div>
+                              </div>
+                              <div class="form-group">
+                                 <label class="col-md-4 control-label">Prénom</label>
+                                 <div class="col-md-12 inputGroupContainer">
+                                    <div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span><input id="firstName" name="firstName" placeholder="Prénom" class="form-control" required="true" value="" type="text"></div>
+                                 </div>
+                              </div>                             
+                              <div class="form-group">
+                                 <label class="col-md-4 control-label">Email</label>
+                                 <div class="col-md-12 inputGroupContainer">
                                     <div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span><input id="email" name="email" placeholder="Email" class="form-control" required="true" value="" type="text"></div>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label class="col-md-4 control-label">N° Telephone</label>
-                                    <div class="col-md-8 inputGroupContainer">
-                                        <div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span><input id="phoneNumber" name="phoneNumber" placeholder="+33..." class="form-control" required="true" value="" type="text"></div>
-                                    </div>
-                                </div>
-                            </fieldset>
-
-                            <fieldset class="well form-horizontal">
-                                <div class="form-group">
-                                    <label class="col-md-4 control-label">Quantité</label>
-                                    <div class="col-md-8 inputGroupContainer">
-                                        <div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span><input id="Quantité" name="fullName" placeholder="1" class="form-control" required="true" value="" type="text"></div>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                        <label class="col-md-4 control-label">Couleur</label>
-                                        <div class="col-md-8 inputGroupContainer">
-                                            <div class="input-group">
-                                                <span class="input-group-addon" style="max-width: 100%;"><i class="glyphicon glyphicon-list"></i></span>
-                                                <select class="selectpicker form-control">
-                                                    <option>Blanc</option>
-                                                    <option>Noir</option>
-                                                    <option>Orange</option>
-                                                    <option>Vert</option>
-                                                    <option>Violet-néon</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                    </div>
-                                <div class="form-group">
-                                    <label class="col-md-4 control-label">Taille</label>
-                                    <div class="col-md-8 inputGroupContainer">
-                                        <div class="input-group">
-                                            <span class="input-group-addon" style="max-width: 100%;"><i class="glyphicon glyphicon-list"></i></span>
-                                            <select class="selectpicker form-control">
-                                                <option>XS</option>
-                                                <option>S</option>
-                                                <option>M</option>
-                                                <option>L</option>
-                                                <option>XL</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label class="col-md-4 control-label">Requête spéciale </label>
-                                    <div class="col-md-8 inputGroupContainer">
-                                        <div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span><input id="Request" name="Request" placeholder="Besoin spéciaux? Dîtes-nous !" class="form-control" required="true" value="" type="text"></div>
-                                    </div>
-                                </div>
-                            </fieldset>
-                        </form>
-                        </td>
-                    </tr>
-                </tbody>
+                                 </div>
+                              </div>
+                              <div class="form-group">
+                                 <label class="col-md-4 control-label">Commentaires </label>
+                                 <div class="col-md-12 inputGroupContainer">
+                                    <div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span><input id="Request" name="Request" placeholder="Un besoin? Une envie? Dîtes-nous !" class="form-control" required="true" value="" type="text"></div>
+                                 </div>
+                              </div>
+                              <div class="form-group">
+                                <div class="form-check-label col-3" for="defaultCheck1"> <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">S'abonner à la newsletter</div>
+                                 <button type="button" class="btn btn-warning btn-lg offset-9 col-3">Envoyer</button>
+                              </div>
+                         </fieldset>
+                     </form>
+                     </td>
+                  </tr>
+               </tbody>
             </table>
-        </div>
+         </div>
     </section>
 
     <!--galerie-->
