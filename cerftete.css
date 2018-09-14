@@ -17,7 +17,7 @@ p
 section
 {
     padding-top: 100px;
-    min-height: 584px;
+    min-height: 684px;
 }
 .about{
     background-color: #f5f5f5;
@@ -33,4 +33,10 @@ header{
 }
 .form{
     background-color: #ff6600!important;
+}
+.table td{
+    border-style: none;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color:transparent;
 }
