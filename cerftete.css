@@ -1,6 +1,7 @@
 p
 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 0px;
 }
 .orange {
     color: #FF6600;
@@ -14,6 +15,7 @@ p
  .noirmarron {
     color: #1B1512;
 }
+
 section
 {
     padding-top: 100px;
@@ -39,4 +41,5 @@ header{
 }
 .table-striped tbody tr:nth-of-type(odd) {
     background-color:transparent;
+
 }
