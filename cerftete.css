@@ -1,7 +1,6 @@
 p
 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-bottom: 0px;
 }
 .orange {
     color: #FF6600;
@@ -15,7 +14,6 @@ p
  .noirmarron {
     color: #1B1512;
 }
-
 section
 {
     padding-top: 100px;
@@ -23,9 +21,6 @@ section
 }
 .pourquoiimg{
     z-index: 25px;
-}
-.preres:hover{
-    transform: scale(1.1);
 }
 .about{
     background-color: #f5f5f5;
@@ -47,5 +42,4 @@ header{
 }
 .table-striped tbody tr:nth-of-type(odd) {
     background-color:transparent;
-
 }
