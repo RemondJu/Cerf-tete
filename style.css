@@ -1,3 +1,35 @@
+<<<<<<< HEAD
 .carousel-control-prev-icon {
     color:black;
+=======
+h1 {
+    color:#FF6600;
+    font-weight: bold;
+}
+.form h1 {
+    color:white;
+    font-weight: bold;
+}
+
+body, html {
+    height: 100%;
+}
+
+.parallax { 
+    /* The image used */
+    background-image: url("https://www.planwallpaper.com/static/images/Alien_Ink_2560X1600_Abstract_Background_1.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    background-color:transparent;
+>>>>>>> b815f29f83d69a0be6c5b97810e68b7cba8a2f7d
 }
