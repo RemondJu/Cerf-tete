@@ -1,0 +1,54 @@
+h1 {
+    color:#FF6600;
+    font-weight: bold;
+}
+
+.carousel-control-prev{
+    background-color: #989898;
+    opacity: 0.1;
+}
+
+.carousel-control-next{
+    background-color: #989898;
+    opacity: 0.1;
+}
+
+.carousel-indicators li{
+    background-color: #989898;
+}
+
+.carousel-indicators .active {
+    background-color: #FF6600;
+}
+
+.form h1 {
+    color:white;
+    font-weight: bold;
+}
+
+.form-check{
+    margin-top:15px;
+    margin-bottom:15px;
+}
+
+body, html {
+    height: 100%;
+}
+
+.parallax { 
+    /* The image used */
+    background-image: url("https://www.planwallpaper.com/static/images/Alien_Ink_2560X1600_Abstract_Background_1.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    background-color:transparent;
+}
