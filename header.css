@@ -2,37 +2,26 @@ body
 {
     background-color: #989898;
 }
-.navbar
-{
-    padding: 0px;
-    z-index: 1000;
-    
-}
 .navbar-nav
 {
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 10px;
     
 }
 .nav-item
 {
 
-    background-color:#3D3D3D;
-    padding-top: 15px;
-    border-left: 1px solid  #F5F5F5;
+    background-color:#343a40;
+    padding-top: 12px;
     border-right: 1px solid  #F5F5F5;
     color: #F5F5F5;
     font-size: 15px;
-    padding-left: 15px;
-    padding-right: 15px;
     display: block;
 
 }
 
-
 .navbar-expand-lg .navbar-nav .nav-link {
-    padding-right: .9rem;
-    padding-left: .9rem;
+    padding-right: 1.8rem;
 }
 
 .nav-item1 
@@ -41,10 +30,11 @@ body
     padding: 15px;
     color: #F5F5F5;
     font-size: 15px;
+    border-right: 1px solid  #F5F5F5;
 }
 .collapse
 {
-    background-color:#3D3D3D;
+    background-color:#343a40;
 }
 
 
@@ -54,10 +44,14 @@ body
 
 .navbar-light .navbar-nav .nav-link:hover {
     color: #F5F5F5;
+    background-color: grey;
 }
 .Logo
 {
     padding-top: 100px;
+}
+.preres:hover{
+    transform: scale(1.1);
 }
 .img-fluid
 {
@@ -66,12 +60,7 @@ body
 }
 .navbar-toggler
 {
-    background-color: #3D3D3D;
-}
-
-.bg-light
-{
-    background-color: #989898!important;
+    background-color: #343a40;
 }
 
 .navbar .fixed-top .navbar-expand-lg .navbar-light .bg-light {
