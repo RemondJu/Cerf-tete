@@ -2,12 +2,6 @@ body
 {
     background-color: #989898;
 }
-.navbar
-{
-    padding: 0px;
-    z-index: 1000;
-    
-}
 .navbar-nav
 {
     justify-content: space-between;
@@ -67,13 +61,7 @@ body
 .navbar-toggler
 {
     background-color: #3D3D3D;
-}
-
-.bg-light
-{
-    background-color: #989898!important;
-}
-
+}   
 .navbar .fixed-top .navbar-expand-lg .navbar-light .bg-light {
     background-color: #989898;
 }
