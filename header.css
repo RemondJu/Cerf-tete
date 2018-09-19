@@ -4,14 +4,14 @@ body
 }
 .navbar-nav
 {
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 10px;
     
 }
 .nav-item
 {
 
-    background-color:#3D3D3D;
+    background-color:#343a40;
     padding-top: 12px;
     border-right: 1px solid  #F5F5F5;
     color: #F5F5F5;
@@ -34,7 +34,7 @@ body
 }
 .collapse
 {
-    background-color:#3D3D3D;
+    background-color:#343a40;
 }
 
 
@@ -60,8 +60,9 @@ body
 }
 .navbar-toggler
 {
-    background-color: #3D3D3D;
-}   
+    background-color: #343a40;
+}
+
 .navbar .fixed-top .navbar-expand-lg .navbar-light .bg-light {
     background-color: #989898;
 }
