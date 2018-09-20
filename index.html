@@ -31,12 +31,12 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav container">
-                        <a class="nav-item nav-link rounded" href="#about">A Propos de la société</a>
-                        <a class="nav-item nav-link rounded" href="#why">Pourquoi le "Wild Cerf-tête"</a>
-                        <a class="nav-item nav-link rounded" href="#caracteristiques">Caractéristique</a>
-                        <a class="nav-item nav-link rounded" href="#how">Comment ça marche</a>
-                        <a class="nav-item1 nav-link rounded preres" href="#form">Pré-Réservation</a>
-                        <a class="nav-item nav-link rounded" href="#gallery">Galerie Photo</a>
+                        <a class="nav-item nav-link rounded js-scrollTo" href="#about">A Propos de la société</a>
+                        <a class="nav-item nav-link rounded js-scrollTo" href="#why">Pourquoi le "Wild Cerf-tête"</a>
+                        <a class="nav-item nav-link rounded js-scrollTo" href="#caracteristiques">Caractéristiques</a>
+                        <a class="nav-item nav-link rounded js-scrollTo" href="#how">Comment ça marche</a>
+                        <a class="nav-item1 nav-link rounded preres js-scrollTo" href="#form">Pré-Réservation</a>
+                        <a class="nav-item nav-link rounded js-scrollTo" href="#gallery">Galerie Photo</a>
                     </div>
                 </div>
             </nav>
@@ -82,7 +82,7 @@
 
     <section id="why" class="pourquoi">
         <div class="container">
-            <h1 class="text-center mb-4">Pourquoi le "Wild cerf-tête" ?</h1>
+            <h1 class="text-center">Pourquoi le "Wild cerf-tête" ?</h1>
             <div class="col-10 offset-1 text-center">
                 <img src="https://i.imgur.com/b9xqp6k.png" alt="cerf-tete" class="mb-4 img-fluid rounded mx-auto d-block">
             </div>
@@ -164,7 +164,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-xs-12 align-middle">
+                <div class="col-lg-4 col-md-6 col-xs-12 align-middle caracli">
                     <ul>
                         <li>Casque bluetooth</li>
                         <li>Autonomie</li>
@@ -223,7 +223,7 @@
                         <td class="bordtop" colspan="1">
                             <form class="well form-horizontal">
                                 <fieldset>
-                                    <div class="form-group">
+                                    <div class="form-group col-lg-6 p-0">
                                         <label class="col-md-4 control-label">Nom</label>
                                         <div class="col-md-12 inputGroupContainer">
                                             <div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span><input
@@ -231,7 +231,7 @@
                                                     required="true" value="" type="text"></div>
                                         </div>
                                     </div>
-                                    <div class="form-group">
+                                    <div class="form-group col-lg-6 p-0">
                                         <label class="col-md-4 control-label">Prénom</label>
                                         <div class="col-md-12 inputGroupContainer">
                                             <div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span><input
@@ -239,7 +239,7 @@
                                                     required="true" value="" type="text"></div>
                                         </div>
                                     </div>
-                                    <div class="form-group">
+                                    <div class="form-group col-lg-6 p-0">
                                         <label class="col-md-4 control-label">Email</label>
                                         <div class="col-md-12 inputGroupContainer">
                                             <div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span><input
@@ -247,7 +247,7 @@
                                                     required="true" value="" type="text"></div>
                                         </div>
                                     </div>
-                                    <div class="form-group">                                    
+                                    <div class="form-group">
                                         <div class="col-md-12 inputGroupContainer">
                                             <label for="comment">Comment:</label>
                                             <textarea class="form-control" rows="5" id="comment"></textarea>
@@ -308,8 +308,8 @@
             <div class="row">
                 <div class="col-4">
                     <h5 class="text-uppercase">Réseaux sociaux</h5>
-                    <ul class="list-unstyled">
-                        <li>
+                    <ul class="row justify-content-center list-unstyled">
+                        <li class="mr-4">
                             <a href="https://www.facebook.com/wildcodeschool/?ref=br_rs" class="fa fa-facebook" target="_blank"></a>
                         </li>
                         <li>
@@ -321,7 +321,7 @@
                 <div class="col-4">
                     <h5 class="text-uppercase" target="_blank">Nos partenaires</h5>
 
-                    <ul class="list-unstyled">
+                    <ul class="list-unstyled p-0 m-0">
                         <li>
                             <a href="https://github.com/" target="_blank">Github</a>
                         </li>
@@ -349,6 +349,19 @@
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.js-scrollTo').on('click', function () { // Au clic sur un élément
+                var page = $(this).attr('href'); // Page cible
+                var speed = 750; // Durée de l'animation (en ms)
+                $('html, body').animate({
+                    scrollTop: $(page).offset().top
+                }, speed); // Go
+                return false;
+            });
+        });
+    </script>
 
 </body>
 
