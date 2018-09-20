@@ -44,3 +44,6 @@
     .table-striped tbody tr:nth-of-type(odd) {
         background-color:transparent;
     }
+    .caracli li{
+        list-style-type: circle;
+    }
