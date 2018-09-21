@@ -13,16 +13,19 @@ body
 
     background-color:#343a40;
     padding-top: 12px;
-    border-right: 1px solid  #F5F5F5;
+    border-right: 1px solid  #989898;
     color: #F5F5F5;
     font-size: 15px;
     display: block;
-
+    border-bottom: 1px solid #989898;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
-    padding-right: 1.2rem;
-    padding-left: 1.2rem;
+    padding-right: 0.8rem;
+    padding-left: 0.8rem;
+    font-weight: bold;
+    font-size: 17px;
+    margin-right: 0.4rem;
 }
 
 .nav-item1 
@@ -31,7 +34,8 @@ body
     padding: 15px;
     color: #F5F5F5;
     font-size: 15px;
-    border-right: 1px solid  #F5F5F5;
+    border-right: 1px solid  #989898;
+    border-bottom: 1px solid #989898;
 }
 .collapse
 {

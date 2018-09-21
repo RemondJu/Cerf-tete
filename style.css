@@ -28,3 +28,11 @@ body, html {
 header {
     background-color:transparent;
 }
+.form-check{
+    margin-top:15px;
+    margin-bottom:15px;
+}
+
+.orange {
+    color: #ff6600;
+}
